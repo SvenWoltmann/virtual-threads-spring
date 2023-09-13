@@ -1,0 +1,5 @@
+### Stage 1: Sequential code using either platform threads or virtual threads
+GET localhost:8080/stage1-seq/product/1
+
+### Stage 2: Asynchronous code using CompletableFuture
+GET localhost:8080/stage2-cf/product/1
