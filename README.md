@@ -4,6 +4,9 @@ This repository contains a Spring demo application using "Virtual Threads",
 a feature described in [JEP 444](https://openjdk.org/jeps/444)
 and released in [Java 21](https://www.happycoders.eu/java/java-21-features/).
 
+The article [Java Virtual Threads (JEP 444): How They Work, Examples, Pitfalls](https://www.happycoders.eu/java/virtual-threads/)
+explains virtual threads in detail (German version: [Virtual Threads in Java: Funktionsweise, Beispiele und Grenzen](https://www.happycoders.eu/de/java/virtual-threads/)).
+
 The application has two controllers:
 * `ControllerEvolution1_Sequential`: sequential code on platform threads or virtual threads
 * `ControllerEvolution2_CompletableFuture`: asynchronous code using CompletableFuture
@@ -39,7 +42,7 @@ Virtual Threads:
 * https://github.com/SvenWoltmann/virtual-threads-quarkus
 
 Structured Concurrency:
-* https://github.com/SvenWoltmann/scoped-values
+* https://github.com/SvenWoltmann/structured-concurrency
 
 Scoped Values:
 * https://github.com/SvenWoltmann/scoped-values
